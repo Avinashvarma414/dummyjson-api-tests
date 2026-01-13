@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="48" passed="48" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-12T12:50:40 EST" name="Surefire suite" finished-at="2026-01-12T12:50:48 EST" duration-ms="8163">
+    <groups>
+      <group name="negative">
+        <method signature="AuthNegativeTest.verifyAuthMeWithInvalidTokenFails()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" name="verifyAuthMeWithInvalidTokenFails" class="com.api.automation.tests.auth.AuthNegativeTest"/>
+        <method signature="AuthNegativeTest.verifyAuthMeWithoutTokenFails()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" name="verifyAuthMeWithoutTokenFails" class="com.api.automation.tests.auth.AuthNegativeTest"/>
+        <method signature="AuthNegativeTest.verifyLoginWithInvalidPassword()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" name="verifyLoginWithInvalidPassword" class="com.api.automation.tests.auth.AuthNegativeTest"/>
+        <method signature="AuthNegativeTest.verifyLoginWithMissingCredentials()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" name="verifyLoginWithMissingCredentials" class="com.api.automation.tests.auth.AuthNegativeTest"/>
+        <method signature="AuthNegativeTest.verifyRefreshWithInvalidTokenFails()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" name="verifyRefreshWithInvalidTokenFails" class="com.api.automation.tests.auth.AuthNegativeTest"/>
+        <method signature="CommentsNegativeTest.verifyAddCommentWithoutBodyFails()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" name="verifyAddCommentWithoutBodyFails" class="com.api.automation.tests.comments.CommentsNegativeTest"/>
+        <method signature="CommentsNegativeTest.verifyDeleteNonExistingComment()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" name="verifyDeleteNonExistingComment" class="com.api.automation.tests.comments.CommentsNegativeTest"/>
+        <method signature="CommentsNegativeTest.verifyGetCommentsWithInvalidPostId()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" name="verifyGetCommentsWithInvalidPostId" class="com.api.automation.tests.comments.CommentsNegativeTest"/>
+        <method signature="PostsNegativeTest.verifyGetPostWithInvalidId()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" name="verifyGetPostWithInvalidId" class="com.api.automation.tests.posts.PostsNegativeTest"/>
+        <method signature="PostsNegativeTest.verifyInvalidPaginationLimit()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" name="verifyInvalidPaginationLimit" class="com.api.automation.tests.posts.PostsNegativeTest"/>
+        <method signature="PostsNegativeTest.verifyInvalidSortFieldBehavior()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" name="verifyInvalidSortFieldBehavior" class="com.api.automation.tests.posts.PostsNegativeTest"/>
+        <method signature="PostsNegativeTest.verifySearchPostWithNoResults()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" name="verifySearchPostWithNoResults" class="com.api.automation.tests.posts.PostsNegativeTest"/>
+        <method signature="ProductsAdvancedTest.verifyInvalidSortByField()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyInvalidSortByField" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+      </group> <!-- negative -->
+      <group name="performance">
+        <method signature="PerformanceTest.getAllPostsPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" name="getAllPostsPerformance" class="com.api.automation.tests.perf.PerformanceTest"/>
+        <method signature="PerformanceTest.getCommentsByPostIdPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" name="getCommentsByPostIdPerformance" class="com.api.automation.tests.perf.PerformanceTest"/>
+        <method signature="PerformanceTest.verifyAuthMeResponseTime()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" name="verifyAuthMeResponseTime" class="com.api.automation.tests.perf.PerformanceTest"/>
+        <method signature="PerformanceTest.verifyGetAllProductsPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" name="verifyGetAllProductsPerformance" class="com.api.automation.tests.perf.PerformanceTest"/>
+        <method signature="PerformanceTest.verifyGetProductsIdPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" name="verifyGetProductsIdPerformance" class="com.api.automation.tests.perf.PerformanceTest"/>
+        <method signature="PerformanceTest.verifyProductsEndpointStability()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" name="verifyProductsEndpointStability" class="com.api.automation.tests.perf.PerformanceTest"/>
+      </group> <!-- performance -->
+      <group name="regression">
+        <method signature="AuthAutoRefreshTest.verifyTokenAutoRefreshAndRetry()[pri:0, instance:com.api.automation.tests.auth.AuthAutoRefreshTest@62e7f11d]" name="verifyTokenAutoRefreshAndRetry" class="com.api.automation.tests.auth.AuthAutoRefreshTest"/>
+        <method signature="CommentsNegativeTest.verifyAddCommentWithoutBodyFails()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" name="verifyAddCommentWithoutBodyFails" class="com.api.automation.tests.comments.CommentsNegativeTest"/>
+        <method signature="CommentsNegativeTest.verifyDeleteNonExistingComment()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" name="verifyDeleteNonExistingComment" class="com.api.automation.tests.comments.CommentsNegativeTest"/>
+        <method signature="CommentsNegativeTest.verifyGetCommentsWithInvalidPostId()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" name="verifyGetCommentsWithInvalidPostId" class="com.api.automation.tests.comments.CommentsNegativeTest"/>
+        <method signature="CommentsTest.verifyAddCommentSchema()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" name="verifyAddCommentSchema" class="com.api.automation.tests.comments.CommentsTest"/>
+        <method signature="CommentsTest.verifyCommentsByPostSchema()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" name="verifyCommentsByPostSchema" class="com.api.automation.tests.comments.CommentsTest"/>
+        <method signature="CommentsTest.verifyDeleteComment()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" name="verifyDeleteComment" class="com.api.automation.tests.comments.CommentsTest"/>
+        <method signature="CommentsTest.verifyGetCommentsByPostId()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" name="verifyGetCommentsByPostId" class="com.api.automation.tests.comments.CommentsTest"/>
+        <method signature="PostsNegativeTest.verifyGetPostWithInvalidId()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" name="verifyGetPostWithInvalidId" class="com.api.automation.tests.posts.PostsNegativeTest"/>
+        <method signature="PostsNegativeTest.verifyInvalidPaginationLimit()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" name="verifyInvalidPaginationLimit" class="com.api.automation.tests.posts.PostsNegativeTest"/>
+        <method signature="PostsNegativeTest.verifyInvalidSortFieldBehavior()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" name="verifyInvalidSortFieldBehavior" class="com.api.automation.tests.posts.PostsNegativeTest"/>
+        <method signature="PostsNegativeTest.verifySearchPostWithNoResults()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" name="verifySearchPostWithNoResults" class="com.api.automation.tests.posts.PostsNegativeTest"/>
+        <method signature="PostsTest.verifyGetPostById()[pri:0, instance:com.api.automation.tests.posts.PostsTest@482bce4f]" name="verifyGetPostById" class="com.api.automation.tests.posts.PostsTest"/>
+        <method signature="PostsTest.verifySearchPosts()[pri:0, instance:com.api.automation.tests.posts.PostsTest@482bce4f]" name="verifySearchPosts" class="com.api.automation.tests.posts.PostsTest"/>
+        <method signature="ProductsAdvancedTest.verifyAddProduct()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyAddProduct" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsAdvancedTest.verifyDeleteProduct()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyDeleteProduct" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsAdvancedTest.verifyInvalidSortByField()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyInvalidSortByField" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsAdvancedTest.verifyParallelExecutionProof()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyParallelExecutionProof" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsAdvancedTest.verifyProductSearchRelevance()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyProductSearchRelevance" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsAdvancedTest.verifyProductSortingAscending()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyProductSortingAscending" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsAdvancedTest.verifyProductsLimitZero()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyProductsLimitZero" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsAdvancedTest.verifyProductsPagination()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyProductsPagination" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsAdvancedTest.verifyUpdateProduct()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyUpdateProduct" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsNegativeTest.verifyGetProductWithInvalidId()[pri:0, instance:com.api.automation.tests.products.ProductsNegativeTest@366647c2]" name="verifyGetProductWithInvalidId" class="com.api.automation.tests.products.ProductsNegativeTest"/>
+        <method signature="ProductsNegativeTest.verifyInvalidProductErrorSchema()[pri:0, instance:com.api.automation.tests.products.ProductsNegativeTest@366647c2]" name="verifyInvalidProductErrorSchema" class="com.api.automation.tests.products.ProductsNegativeTest"/>
+        <method signature="ProductsNegativeTest.verifySearchWithNoResults()[pri:0, instance:com.api.automation.tests.products.ProductsNegativeTest@366647c2]" name="verifySearchWithNoResults" class="com.api.automation.tests.products.ProductsNegativeTest"/>
+        <method signature="ProductsTest.verifyGetAllProducts()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" name="verifyGetAllProducts" class="com.api.automation.tests.products.ProductsTest"/>
+        <method signature="ProductsTest.verifyGetProductById()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" name="verifyGetProductById" class="com.api.automation.tests.products.ProductsTest"/>
+        <method signature="ProductsTest.verifySearchProducts()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" name="verifySearchProducts" class="com.api.automation.tests.products.ProductsTest"/>
+      </group> <!-- regression -->
+      <group name="contract">
+        <method signature="CommentsTest.verifyCommentsByPostSchema()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" name="verifyCommentsByPostSchema" class="com.api.automation.tests.comments.CommentsTest"/>
+        <method signature="ProductsAdvancedTest.verifyDeleteProduct()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" name="verifyDeleteProduct" class="com.api.automation.tests.products.ProductsAdvancedTest"/>
+        <method signature="ProductsTest.verifyProductsSchema()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" name="verifyProductsSchema" class="com.api.automation.tests.products.ProductsTest"/>
+      </group> <!-- contract -->
+      <group name="smoke">
+        <method signature="AuthAutoRefreshTest.verifyTokenAutoRefreshAndRetry()[pri:0, instance:com.api.automation.tests.auth.AuthAutoRefreshTest@62e7f11d]" name="verifyTokenAutoRefreshAndRetry" class="com.api.automation.tests.auth.AuthAutoRefreshTest"/>
+        <method signature="PostsTest.verifyGetAllPosts()[pri:0, instance:com.api.automation.tests.posts.PostsTest@482bce4f]" name="verifyGetAllPosts" class="com.api.automation.tests.posts.PostsTest"/>
+        <method signature="ProductsTest.verifyGetAllProducts()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" name="verifyGetAllProducts" class="com.api.automation.tests.products.ProductsTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-01-12T12:50:40 EST" name="Surefire test" finished-at="2026-01-12T12:50:48 EST" duration-ms="8163">
+      <class name="com.api.automation.tests.auth.AuthAutoRefreshTest">
+        <test-method signature="verifyTokenAutoRefreshAndRetry()[pri:0, instance:com.api.automation.tests.auth.AuthAutoRefreshTest@62e7f11d]" started-at="2026-01-12T12:50:43 EST" name="verifyTokenAutoRefreshAndRetry" finished-at="2026-01-12T12:50:43 EST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTokenAutoRefreshAndRetry -->
+      </class> <!-- com.api.automation.tests.auth.AuthAutoRefreshTest -->
+      <class name="com.api.automation.tests.comments.CommentsNegativeTest">
+        <test-method signature="verifyAddCommentWithoutBodyFails()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" started-at="2026-01-12T12:50:40 EST" name="verifyAddCommentWithoutBodyFails" finished-at="2026-01-12T12:50:41 EST" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCommentWithoutBodyFails -->
+        <test-method signature="verifyDeleteNonExistingComment()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" started-at="2026-01-12T12:50:41 EST" name="verifyDeleteNonExistingComment" finished-at="2026-01-12T12:50:41 EST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteNonExistingComment -->
+        <test-method signature="verifyGetCommentsWithInvalidPostId()[pri:0, instance:com.api.automation.tests.comments.CommentsNegativeTest@52102734]" started-at="2026-01-12T12:50:41 EST" name="verifyGetCommentsWithInvalidPostId" finished-at="2026-01-12T12:50:41 EST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetCommentsWithInvalidPostId -->
+      </class> <!-- com.api.automation.tests.comments.CommentsNegativeTest -->
+      <class name="com.api.automation.tests.auth.RequestSpecSanityTest">
+        <test-method signature="verifyBaseSpecWorks()[pri:0, instance:com.api.automation.tests.auth.RequestSpecSanityTest@6a370f4]" started-at="2026-01-12T12:50:43 EST" name="verifyBaseSpecWorks" finished-at="2026-01-12T12:50:44 EST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBaseSpecWorks -->
+      </class> <!-- com.api.automation.tests.auth.RequestSpecSanityTest -->
+      <class name="com.api.automation.tests.auth.ResponseSpecSanityTest">
+        <test-method signature="verifySuccessResponseSpec()[pri:0, instance:com.api.automation.tests.auth.ResponseSpecSanityTest@4da4253]" started-at="2026-01-12T12:50:43 EST" name="verifySuccessResponseSpec" finished-at="2026-01-12T12:50:43 EST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessResponseSpec -->
+      </class> <!-- com.api.automation.tests.auth.ResponseSpecSanityTest -->
+      <class name="com.api.automation.tests.products.ProductsNegativeTest">
+        <test-method signature="verifyGetProductWithInvalidId()[pri:0, instance:com.api.automation.tests.products.ProductsNegativeTest@366647c2]" started-at="2026-01-12T12:50:42 EST" name="verifyGetProductWithInvalidId" finished-at="2026-01-12T12:50:42 EST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProductWithInvalidId -->
+        <test-method signature="verifyInvalidProductErrorSchema()[pri:0, instance:com.api.automation.tests.products.ProductsNegativeTest@366647c2]" started-at="2026-01-12T12:50:42 EST" name="verifyInvalidProductErrorSchema" finished-at="2026-01-12T12:50:42 EST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidProductErrorSchema -->
+        <test-method signature="verifyProductsAccessibleEvenWithInvalidToken()[pri:0, instance:com.api.automation.tests.products.ProductsNegativeTest@366647c2]" started-at="2026-01-12T12:50:42 EST" name="verifyProductsAccessibleEvenWithInvalidToken" finished-at="2026-01-12T12:50:42 EST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsAccessibleEvenWithInvalidToken -->
+        <test-method signature="verifySearchWithNoResults()[pri:0, instance:com.api.automation.tests.products.ProductsNegativeTest@366647c2]" started-at="2026-01-12T12:50:42 EST" name="verifySearchWithNoResults" finished-at="2026-01-12T12:50:42 EST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoResults -->
+      </class> <!-- com.api.automation.tests.products.ProductsNegativeTest -->
+      <class name="com.api.automation.tests.products.ProductsTest">
+        <test-method signature="verifyGetAllProducts()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" started-at="2026-01-12T12:50:43 EST" name="verifyGetAllProducts" finished-at="2026-01-12T12:50:43 EST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllProducts -->
+        <test-method signature="verifyGetProductById()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" started-at="2026-01-12T12:50:43 EST" name="verifyGetProductById" finished-at="2026-01-12T12:50:43 EST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProductById -->
+        <test-method signature="verifyProductByIdSchema()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" started-at="2026-01-12T12:50:43 EST" name="verifyProductByIdSchema" finished-at="2026-01-12T12:50:43 EST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductByIdSchema -->
+        <test-method signature="verifyProductsSchema()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" started-at="2026-01-12T12:50:43 EST" name="verifyProductsSchema" finished-at="2026-01-12T12:50:43 EST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsSchema -->
+        <test-method signature="verifySearchProducts()[pri:0, instance:com.api.automation.tests.products.ProductsTest@1649b0e6]" started-at="2026-01-12T12:50:43 EST" name="verifySearchProducts" finished-at="2026-01-12T12:50:43 EST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProducts -->
+      </class> <!-- com.api.automation.tests.products.ProductsTest -->
+      <class name="com.api.automation.tests.auth.AuthNegativeTest">
+        <test-method signature="verifyAuthMeWithInvalidTokenFails()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" started-at="2026-01-12T12:50:43 EST" name="verifyAuthMeWithInvalidTokenFails" finished-at="2026-01-12T12:50:43 EST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthMeWithInvalidTokenFails -->
+        <test-method signature="verifyAuthMeWithoutTokenFails()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" started-at="2026-01-12T12:50:43 EST" name="verifyAuthMeWithoutTokenFails" finished-at="2026-01-12T12:50:43 EST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthMeWithoutTokenFails -->
+        <test-method signature="verifyLoginWithInvalidPassword()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" started-at="2026-01-12T12:50:43 EST" name="verifyLoginWithInvalidPassword" finished-at="2026-01-12T12:50:43 EST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidPassword -->
+        <test-method signature="verifyLoginWithMissingCredentials()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" started-at="2026-01-12T12:50:43 EST" name="verifyLoginWithMissingCredentials" finished-at="2026-01-12T12:50:43 EST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithMissingCredentials -->
+        <test-method signature="verifyRefreshWithInvalidTokenFails()[pri:0, instance:com.api.automation.tests.auth.AuthNegativeTest@3972a855]" started-at="2026-01-12T12:50:43 EST" name="verifyRefreshWithInvalidTokenFails" finished-at="2026-01-12T12:50:43 EST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefreshWithInvalidTokenFails -->
+      </class> <!-- com.api.automation.tests.auth.AuthNegativeTest -->
+      <class name="com.api.automation.tests.perf.PerformanceTest">
+        <test-method signature="getAllPostsPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" started-at="2026-01-12T12:50:44 EST" name="getAllPostsPerformance" finished-at="2026-01-12T12:50:44 EST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPostsPerformance -->
+        <test-method signature="getCommentsByPostIdPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" started-at="2026-01-12T12:50:44 EST" name="getCommentsByPostIdPerformance" finished-at="2026-01-12T12:50:44 EST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsByPostIdPerformance -->
+        <test-method signature="verifyAuthMeResponseTime()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" started-at="2026-01-12T12:50:44 EST" name="verifyAuthMeResponseTime" finished-at="2026-01-12T12:50:44 EST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthMeResponseTime -->
+        <test-method signature="verifyGetAllProductsPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" started-at="2026-01-12T12:50:44 EST" name="verifyGetAllProductsPerformance" finished-at="2026-01-12T12:50:44 EST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllProductsPerformance -->
+        <test-method signature="verifyGetProductsIdPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" started-at="2026-01-12T12:50:44 EST" name="verifyGetProductsIdPerformance" finished-at="2026-01-12T12:50:44 EST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProductsIdPerformance -->
+        <test-method signature="verifyProductsEndpointStability()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@2abf4075]" started-at="2026-01-12T12:50:44 EST" name="verifyProductsEndpointStability" finished-at="2026-01-12T12:50:48 EST" duration-ms="3962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsEndpointStability -->
+      </class> <!-- com.api.automation.tests.perf.PerformanceTest -->
+      <class name="com.api.automation.tests.comments.CommentsTest">
+        <test-method signature="verifyAddCommentSchema()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" started-at="2026-01-12T12:50:41 EST" name="verifyAddCommentSchema" finished-at="2026-01-12T12:50:41 EST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCommentSchema -->
+        <test-method signature="verifyCommentsByPostSchema()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" started-at="2026-01-12T12:50:41 EST" name="verifyCommentsByPostSchema" finished-at="2026-01-12T12:50:41 EST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCommentsByPostSchema -->
+        <test-method signature="verifyDeleteComment()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" started-at="2026-01-12T12:50:41 EST" name="verifyDeleteComment" finished-at="2026-01-12T12:50:41 EST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteComment -->
+        <test-method signature="verifyGetCommentsByPostId()[pri:0, instance:com.api.automation.tests.comments.CommentsTest@5fa07e12]" started-at="2026-01-12T12:50:41 EST" name="verifyGetCommentsByPostId" finished-at="2026-01-12T12:50:41 EST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetCommentsByPostId -->
+      </class> <!-- com.api.automation.tests.comments.CommentsTest -->
+      <class name="com.api.automation.tests.auth.ConfigSanityTest">
+        <test-method signature="verifyConfigLoads()[pri:0, instance:com.api.automation.tests.auth.ConfigSanityTest@865dd6]" started-at="2026-01-12T12:50:43 EST" name="verifyConfigLoads" finished-at="2026-01-12T12:50:43 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfigLoads -->
+      </class> <!-- com.api.automation.tests.auth.ConfigSanityTest -->
+      <class name="com.api.automation.tests.posts.PostsTest">
+        <test-method signature="verifyGetAllPosts()[pri:0, instance:com.api.automation.tests.posts.PostsTest@482bce4f]" started-at="2026-01-12T12:50:41 EST" name="verifyGetAllPosts" finished-at="2026-01-12T12:50:42 EST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllPosts -->
+        <test-method signature="verifyGetPostById()[pri:0, instance:com.api.automation.tests.posts.PostsTest@482bce4f]" started-at="2026-01-12T12:50:42 EST" name="verifyGetPostById" finished-at="2026-01-12T12:50:42 EST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetPostById -->
+        <test-method signature="verifySearchPosts()[pri:0, instance:com.api.automation.tests.posts.PostsTest@482bce4f]" started-at="2026-01-12T12:50:42 EST" name="verifySearchPosts" finished-at="2026-01-12T12:50:42 EST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPosts -->
+      </class> <!-- com.api.automation.tests.posts.PostsTest -->
+      <class name="com.api.automation.tests.auth.AuthMeSanityTest">
+        <test-method signature="verifyAuthMeWorks()[pri:0, instance:com.api.automation.tests.auth.AuthMeSanityTest@503d687a]" started-at="2026-01-12T12:50:43 EST" name="verifyAuthMeWorks" finished-at="2026-01-12T12:50:43 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthMeWorks -->
+      </class> <!-- com.api.automation.tests.auth.AuthMeSanityTest -->
+      <class name="com.api.automation.tests.products.ProductsAdvancedTest">
+        <test-method signature="verifyAddProduct()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyAddProduct" finished-at="2026-01-12T12:50:42 EST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProduct -->
+        <test-method signature="verifyDeleteProduct()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyDeleteProduct" finished-at="2026-01-12T12:50:42 EST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteProduct -->
+        <test-method signature="verifyInvalidSortByField()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyInvalidSortByField" finished-at="2026-01-12T12:50:42 EST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSortByField -->
+        <test-method signature="verifyParallelExecutionProof()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyParallelExecutionProof" finished-at="2026-01-12T12:50:42 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyParallelExecutionProof -->
+        <test-method signature="verifyProductSearchRelevance()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyProductSearchRelevance" finished-at="2026-01-12T12:50:42 EST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearchRelevance -->
+        <test-method signature="verifyProductSortingAscending()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyProductSortingAscending" finished-at="2026-01-12T12:50:42 EST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSortingAscending -->
+        <test-method signature="verifyProductsLimitZero()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyProductsLimitZero" finished-at="2026-01-12T12:50:42 EST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsLimitZero -->
+        <test-method signature="verifyProductsPagination()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyProductsPagination" finished-at="2026-01-12T12:50:42 EST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPagination -->
+        <test-method signature="verifyUpdateProduct()[pri:0, instance:com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2]" started-at="2026-01-12T12:50:42 EST" name="verifyUpdateProduct" finished-at="2026-01-12T12:50:43 EST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateProduct -->
+      </class> <!-- com.api.automation.tests.products.ProductsAdvancedTest -->
+      <class name="com.api.automation.tests.posts.PostsNegativeTest">
+        <test-method signature="verifyGetPostWithInvalidId()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" started-at="2026-01-12T12:50:41 EST" name="verifyGetPostWithInvalidId" finished-at="2026-01-12T12:50:41 EST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetPostWithInvalidId -->
+        <test-method signature="verifyInvalidPaginationLimit()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" started-at="2026-01-12T12:50:41 EST" name="verifyInvalidPaginationLimit" finished-at="2026-01-12T12:50:41 EST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPaginationLimit -->
+        <test-method signature="verifyInvalidSortFieldBehavior()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" started-at="2026-01-12T12:50:41 EST" name="verifyInvalidSortFieldBehavior" finished-at="2026-01-12T12:50:41 EST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSortFieldBehavior -->
+        <test-method signature="verifySearchPostWithNoResults()[pri:0, instance:com.api.automation.tests.posts.PostsNegativeTest@55b53d44]" started-at="2026-01-12T12:50:41 EST" name="verifySearchPostWithNoResults" finished-at="2026-01-12T12:50:41 EST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPostWithNoResults -->
+      </class> <!-- com.api.automation.tests.posts.PostsNegativeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

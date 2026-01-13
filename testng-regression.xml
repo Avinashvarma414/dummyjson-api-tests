@@ -1,0 +1,36 @@
+
+<suite name="Regression Suite"
+       parallel="methods"
+       thread-count="5"
+       verbose="1">
+
+    <!-- 🔥 REQUIRED for Allure reporting -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Regression Tests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.api.automation.tests.auth.AuthAutoRefreshTest"/>
+            <class name="com.api.automation.tests.auth.AuthMeSanityTest"/>
+            <class name="com.api.automation.tests.auth.AuthNegativeTest"/>
+            <class name="com.api.automation.tests.auth.ConfigSanityTest"/>
+            <class name="com.api.automation.tests.auth.RequestSpecSanityTest"/>
+            <class name="com.api.automation.tests.auth.ResponseSpecSanityTest"/>
+            <class name="com.api.automation.tests.comments.CommentsNegativeTest"/>
+            <class name="com.api.automation.tests.comments.CommentsTest"/>
+            <class name="com.api.automation.tests.posts.PostsNegativeTest"/>
+            <class name="com.api.automation.tests.posts.PostsTest"/>
+            <class name="com.api.automation.tests.products.ProductsAdvancedTest"/>
+            <class name="com.api.automation.tests.products.ProductsNegativeTest"/>
+            <class name="com.api.automation.tests.products.ProductsTest"/>
+        </classes>
+    </test>
+
+</suite>

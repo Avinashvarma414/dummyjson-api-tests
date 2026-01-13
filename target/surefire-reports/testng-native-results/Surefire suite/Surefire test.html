@@ -1,0 +1,320 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>48/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 12 12:50:40 EST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8163 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.api.automation.tests.posts.PostsTest.verifyGetPostById()'><b>verifyGetPostById</b><br>Test class: com.api.automation.tests.posts.PostsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.posts.PostsTest@482bce4f</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyProductsLimitZero()'><b>verifyProductsLimitZero</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.AuthNegativeTest.verifyLoginWithInvalidPassword()'><b>verifyLoginWithInvalidPassword</b><br>Test class: com.api.automation.tests.auth.AuthNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.AuthNegativeTest@3972a855</td></tr>
+<tr>
+<td title='com.api.automation.tests.comments.CommentsNegativeTest.verifyDeleteNonExistingComment()'><b>verifyDeleteNonExistingComment</b><br>Test class: com.api.automation.tests.comments.CommentsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.comments.CommentsNegativeTest@52102734</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.AuthNegativeTest.verifyRefreshWithInvalidTokenFails()'><b>verifyRefreshWithInvalidTokenFails</b><br>Test class: com.api.automation.tests.auth.AuthNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.AuthNegativeTest@3972a855</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.ConfigSanityTest.verifyConfigLoads()'><b>verifyConfigLoads</b><br>Test class: com.api.automation.tests.auth.ConfigSanityTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.ConfigSanityTest@865dd6</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyParallelExecutionProof()'><b>verifyParallelExecutionProof</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.AuthNegativeTest.verifyAuthMeWithoutTokenFails()'><b>verifyAuthMeWithoutTokenFails</b><br>Test class: com.api.automation.tests.auth.AuthNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.AuthNegativeTest@3972a855</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsTest.verifyGetProductById()'><b>verifyGetProductById</b><br>Test class: com.api.automation.tests.products.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsTest@1649b0e6</td></tr>
+<tr>
+<td title='com.api.automation.tests.comments.CommentsNegativeTest.verifyGetCommentsWithInvalidPostId()'><b>verifyGetCommentsWithInvalidPostId</b><br>Test class: com.api.automation.tests.comments.CommentsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.comments.CommentsNegativeTest@52102734</td></tr>
+<tr>
+<td title='com.api.automation.tests.perf.PerformanceTest.verifyGetAllProductsPerformance()'><b>verifyGetAllProductsPerformance</b><br>Test class: com.api.automation.tests.perf.PerformanceTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.perf.PerformanceTest@2abf4075</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyProductSearchRelevance()'><b>verifyProductSearchRelevance</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyAddProduct()'><b>verifyAddProduct</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+<tr>
+<td title='com.api.automation.tests.posts.PostsNegativeTest.verifyGetPostWithInvalidId()'><b>verifyGetPostWithInvalidId</b><br>Test class: com.api.automation.tests.posts.PostsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.posts.PostsNegativeTest@55b53d44</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsNegativeTest.verifySearchWithNoResults()'><b>verifySearchWithNoResults</b><br>Test class: com.api.automation.tests.products.ProductsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsNegativeTest@366647c2</td></tr>
+<tr>
+<td title='com.api.automation.tests.posts.PostsTest.verifyGetAllPosts()'><b>verifyGetAllPosts</b><br>Test class: com.api.automation.tests.posts.PostsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.posts.PostsTest@482bce4f</td></tr>
+<tr>
+<td title='com.api.automation.tests.perf.PerformanceTest.verifyAuthMeResponseTime()'><b>verifyAuthMeResponseTime</b><br>Test class: com.api.automation.tests.perf.PerformanceTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.perf.PerformanceTest@2abf4075</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyProductSortingAscending()'><b>verifyProductSortingAscending</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsNegativeTest.verifyGetProductWithInvalidId()'><b>verifyGetProductWithInvalidId</b><br>Test class: com.api.automation.tests.products.ProductsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsNegativeTest@366647c2</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.AuthNegativeTest.verifyLoginWithMissingCredentials()'><b>verifyLoginWithMissingCredentials</b><br>Test class: com.api.automation.tests.auth.AuthNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.AuthNegativeTest@3972a855</td></tr>
+<tr>
+<td title='com.api.automation.tests.posts.PostsTest.verifySearchPosts()'><b>verifySearchPosts</b><br>Test class: com.api.automation.tests.posts.PostsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.posts.PostsTest@482bce4f</td></tr>
+<tr>
+<td title='com.api.automation.tests.perf.PerformanceTest.verifyGetProductsIdPerformance()'><b>verifyGetProductsIdPerformance</b><br>Test class: com.api.automation.tests.perf.PerformanceTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.perf.PerformanceTest@2abf4075</td></tr>
+<tr>
+<td title='com.api.automation.tests.comments.CommentsTest.verifyAddCommentSchema()'><b>verifyAddCommentSchema</b><br>Test class: com.api.automation.tests.comments.CommentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.comments.CommentsTest@5fa07e12</td></tr>
+<tr>
+<td title='com.api.automation.tests.posts.PostsNegativeTest.verifySearchPostWithNoResults()'><b>verifySearchPostWithNoResults</b><br>Test class: com.api.automation.tests.posts.PostsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.posts.PostsNegativeTest@55b53d44</td></tr>
+<tr>
+<td title='com.api.automation.tests.perf.PerformanceTest.verifyProductsEndpointStability()'><b>verifyProductsEndpointStability</b><br>Test class: com.api.automation.tests.perf.PerformanceTest</td>
+<td></td>
+<td>3</td>
+<td>com.api.automation.tests.perf.PerformanceTest@2abf4075</td></tr>
+<tr>
+<td title='com.api.automation.tests.posts.PostsNegativeTest.verifyInvalidPaginationLimit()'><b>verifyInvalidPaginationLimit</b><br>Test class: com.api.automation.tests.posts.PostsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.posts.PostsNegativeTest@55b53d44</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.AuthNegativeTest.verifyAuthMeWithInvalidTokenFails()'><b>verifyAuthMeWithInvalidTokenFails</b><br>Test class: com.api.automation.tests.auth.AuthNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.AuthNegativeTest@3972a855</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsNegativeTest.verifyInvalidProductErrorSchema()'><b>verifyInvalidProductErrorSchema</b><br>Test class: com.api.automation.tests.products.ProductsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsNegativeTest@366647c2</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsTest.verifyGetAllProducts()'><b>verifyGetAllProducts</b><br>Test class: com.api.automation.tests.products.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsTest@1649b0e6</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyInvalidSortByField()'><b>verifyInvalidSortByField</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+<tr>
+<td title='com.api.automation.tests.comments.CommentsTest.verifyCommentsByPostSchema()'><b>verifyCommentsByPostSchema</b><br>Test class: com.api.automation.tests.comments.CommentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.comments.CommentsTest@5fa07e12</td></tr>
+<tr>
+<td title='com.api.automation.tests.comments.CommentsTest.verifyDeleteComment()'><b>verifyDeleteComment</b><br>Test class: com.api.automation.tests.comments.CommentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.comments.CommentsTest@5fa07e12</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.AuthAutoRefreshTest.verifyTokenAutoRefreshAndRetry()'><b>verifyTokenAutoRefreshAndRetry</b><br>Test class: com.api.automation.tests.auth.AuthAutoRefreshTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.AuthAutoRefreshTest@62e7f11d</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.AuthMeSanityTest.verifyAuthMeWorks()'><b>verifyAuthMeWorks</b><br>Test class: com.api.automation.tests.auth.AuthMeSanityTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.AuthMeSanityTest@503d687a</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsTest.verifyProductsSchema()'><b>verifyProductsSchema</b><br>Test class: com.api.automation.tests.products.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsTest@1649b0e6</td></tr>
+<tr>
+<td title='com.api.automation.tests.posts.PostsNegativeTest.verifyInvalidSortFieldBehavior()'><b>verifyInvalidSortFieldBehavior</b><br>Test class: com.api.automation.tests.posts.PostsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.posts.PostsNegativeTest@55b53d44</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsNegativeTest.verifyProductsAccessibleEvenWithInvalidToken()'><b>verifyProductsAccessibleEvenWithInvalidToken</b><br>Test class: com.api.automation.tests.products.ProductsNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsNegativeTest@366647c2</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.ResponseSpecSanityTest.verifySuccessResponseSpec()'><b>verifySuccessResponseSpec</b><br>Test class: com.api.automation.tests.auth.ResponseSpecSanityTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.ResponseSpecSanityTest@4da4253</td></tr>
+<tr>
+<td title='com.api.automation.tests.comments.CommentsNegativeTest.verifyAddCommentWithoutBodyFails()'><b>verifyAddCommentWithoutBodyFails</b><br>Test class: com.api.automation.tests.comments.CommentsNegativeTest</td>
+<td></td>
+<td>1</td>
+<td>com.api.automation.tests.comments.CommentsNegativeTest@52102734</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsTest.verifySearchProducts()'><b>verifySearchProducts</b><br>Test class: com.api.automation.tests.products.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsTest@1649b0e6</td></tr>
+<tr>
+<td title='com.api.automation.tests.perf.PerformanceTest.getCommentsByPostIdPerformance()'><b>getCommentsByPostIdPerformance</b><br>Test class: com.api.automation.tests.perf.PerformanceTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.perf.PerformanceTest@2abf4075</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyDeleteProduct()'><b>verifyDeleteProduct</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsTest.verifyProductByIdSchema()'><b>verifyProductByIdSchema</b><br>Test class: com.api.automation.tests.products.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsTest@1649b0e6</td></tr>
+<tr>
+<td title='com.api.automation.tests.perf.PerformanceTest.getAllPostsPerformance()'><b>getAllPostsPerformance</b><br>Test class: com.api.automation.tests.perf.PerformanceTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.perf.PerformanceTest@2abf4075</td></tr>
+<tr>
+<td title='com.api.automation.tests.auth.RequestSpecSanityTest.verifyBaseSpecWorks()'><b>verifyBaseSpecWorks</b><br>Test class: com.api.automation.tests.auth.RequestSpecSanityTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.auth.RequestSpecSanityTest@6a370f4</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyProductsPagination()'><b>verifyProductsPagination</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+<tr>
+<td title='com.api.automation.tests.comments.CommentsTest.verifyGetCommentsByPostId()'><b>verifyGetCommentsByPostId</b><br>Test class: com.api.automation.tests.comments.CommentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.comments.CommentsTest@5fa07e12</td></tr>
+<tr>
+<td title='com.api.automation.tests.products.ProductsAdvancedTest.verifyUpdateProduct()'><b>verifyUpdateProduct</b><br>Test class: com.api.automation.tests.products.ProductsAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.api.automation.tests.products.ProductsAdvancedTest@6a6afff2</td></tr>
+</table><p>
+</body>
+</html>

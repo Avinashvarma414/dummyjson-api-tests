@@ -1,0 +1,29 @@
+
+<suite name="Contract Suite"
+       parallel="methods"
+       thread-count="5"
+       verbose="1">
+       <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Contract Tests">
+        <groups>
+            <run>
+                <include name="contract"/>
+            </run>
+        </groups>
+
+        <classes>
+            <!-- Contract = schema + response structure validation only -->
+            <class name="com.api.automation.tests.products.ProductsTest"/>
+            <class name="com.api.automation.tests.products.ProductsAdvancedTest"/>
+
+            <class name="com.api.automation.tests.posts.PostsTest"/>
+            <class name="com.api.automation.tests.comments.CommentsTest"/>
+
+            <class name="com.api.automation.tests.auth.AuthMeSanityTest"/>
+        </classes>
+    </test>
+
+</suite>

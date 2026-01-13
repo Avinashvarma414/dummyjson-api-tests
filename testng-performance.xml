@@ -1,0 +1,16 @@
+<suite name="Performance Suite" verbose="1">
+<listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Performance Tests">
+        <groups>
+            <run>
+                <include name="performance"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.api.automation.tests.perf.PerformanceTest"/>
+        </classes>
+    </test>
+</suite>

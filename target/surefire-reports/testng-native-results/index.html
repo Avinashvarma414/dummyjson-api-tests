@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>5 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">48 methods,   48 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.perf.PerformanceTest" class="method navigator-link" hash-for-method="getAllPostsPerformance">getAllPostsPerformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.perf.PerformanceTest" class="method navigator-link" hash-for-method="getCommentsByPostIdPerformance">getCommentsByPostIdPerformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.comments.CommentsTest" class="method navigator-link" hash-for-method="verifyAddCommentSchema">verifyAddCommentSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.comments.CommentsNegativeTest" class="method navigator-link" hash-for-method="verifyAddCommentWithoutBodyFails">verifyAddCommentWithoutBodyFails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyAddProduct">verifyAddProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.perf.PerformanceTest" class="method navigator-link" hash-for-method="verifyAuthMeResponseTime">verifyAuthMeResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.AuthNegativeTest" class="method navigator-link" hash-for-method="verifyAuthMeWithInvalidTokenFails">verifyAuthMeWithInvalidTokenFails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.AuthNegativeTest" class="method navigator-link" hash-for-method="verifyAuthMeWithoutTokenFails">verifyAuthMeWithoutTokenFails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.AuthMeSanityTest" class="method navigator-link" hash-for-method="verifyAuthMeWorks">verifyAuthMeWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.RequestSpecSanityTest" class="method navigator-link" hash-for-method="verifyBaseSpecWorks">verifyBaseSpecWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.comments.CommentsTest" class="method navigator-link" hash-for-method="verifyCommentsByPostSchema">verifyCommentsByPostSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.ConfigSanityTest" class="method navigator-link" hash-for-method="verifyConfigLoads">verifyConfigLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.comments.CommentsTest" class="method navigator-link" hash-for-method="verifyDeleteComment">verifyDeleteComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.comments.CommentsNegativeTest" class="method navigator-link" hash-for-method="verifyDeleteNonExistingComment">verifyDeleteNonExistingComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyDeleteProduct">verifyDeleteProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.posts.PostsTest" class="method navigator-link" hash-for-method="verifyGetAllPosts">verifyGetAllPosts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsTest" class="method navigator-link" hash-for-method="verifyGetAllProducts">verifyGetAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.perf.PerformanceTest" class="method navigator-link" hash-for-method="verifyGetAllProductsPerformance">verifyGetAllProductsPerformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.comments.CommentsTest" class="method navigator-link" hash-for-method="verifyGetCommentsByPostId">verifyGetCommentsByPostId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.comments.CommentsNegativeTest" class="method navigator-link" hash-for-method="verifyGetCommentsWithInvalidPostId">verifyGetCommentsWithInvalidPostId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.posts.PostsTest" class="method navigator-link" hash-for-method="verifyGetPostById">verifyGetPostById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.posts.PostsNegativeTest" class="method navigator-link" hash-for-method="verifyGetPostWithInvalidId">verifyGetPostWithInvalidId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsTest" class="method navigator-link" hash-for-method="verifyGetProductById">verifyGetProductById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsNegativeTest" class="method navigator-link" hash-for-method="verifyGetProductWithInvalidId">verifyGetProductWithInvalidId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.perf.PerformanceTest" class="method navigator-link" hash-for-method="verifyGetProductsIdPerformance">verifyGetProductsIdPerformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.posts.PostsNegativeTest" class="method navigator-link" hash-for-method="verifyInvalidPaginationLimit">verifyInvalidPaginationLimit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsNegativeTest" class="method navigator-link" hash-for-method="verifyInvalidProductErrorSchema">verifyInvalidProductErrorSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyInvalidSortByField">verifyInvalidSortByField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.posts.PostsNegativeTest" class="method navigator-link" hash-for-method="verifyInvalidSortFieldBehavior">verifyInvalidSortFieldBehavior</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.AuthNegativeTest" class="method navigator-link" hash-for-method="verifyLoginWithInvalidPassword">verifyLoginWithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.AuthNegativeTest" class="method navigator-link" hash-for-method="verifyLoginWithMissingCredentials">verifyLoginWithMissingCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyParallelExecutionProof">verifyParallelExecutionProof</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsTest" class="method navigator-link" hash-for-method="verifyProductByIdSchema">verifyProductByIdSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyProductSearchRelevance">verifyProductSearchRelevance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyProductSortingAscending">verifyProductSortingAscending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsNegativeTest" class="method navigator-link" hash-for-method="verifyProductsAccessibleEvenWithInvalidToken">verifyProductsAccessibleEvenWithInvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.perf.PerformanceTest" class="method navigator-link" hash-for-method="verifyProductsEndpointStability">verifyProductsEndpointStability</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyProductsLimitZero">verifyProductsLimitZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyProductsPagination">verifyProductsPagination</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsTest" class="method navigator-link" hash-for-method="verifyProductsSchema">verifyProductsSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.AuthNegativeTest" class="method navigator-link" hash-for-method="verifyRefreshWithInvalidTokenFails">verifyRefreshWithInvalidTokenFails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.posts.PostsNegativeTest" class="method navigator-link" hash-for-method="verifySearchPostWithNoResults">verifySearchPostWithNoResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.posts.PostsTest" class="method navigator-link" hash-for-method="verifySearchPosts">verifySearchPosts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsTest" class="method navigator-link" hash-for-method="verifySearchProducts">verifySearchProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsNegativeTest" class="method navigator-link" hash-for-method="verifySearchWithNoResults">verifySearchWithNoResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.ResponseSpecSanityTest" class="method navigator-link" hash-for-method="verifySuccessResponseSpec">verifySuccessResponseSpec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.auth.AuthAutoRefreshTest" class="method navigator-link" hash-for-method="verifyTokenAutoRefreshAndRetry">verifyTokenAutoRefreshAndRetry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.products.ProductsAdvancedTest" class="method navigator-link" hash-for-method="verifyUpdateProduct">verifyUpdateProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.posts.PostsNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetPostWithInvalidId">
+                  </a> <!-- verifyGetPostWithInvalidId -->
+                  <span class="method-name">verifyGetPostWithInvalidId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidPaginationLimit">
+                  </a> <!-- verifyInvalidPaginationLimit -->
+                  <span class="method-name">verifyInvalidPaginationLimit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidSortFieldBehavior">
+                  </a> <!-- verifyInvalidSortFieldBehavior -->
+                  <span class="method-name">verifyInvalidSortFieldBehavior</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchPostWithNoResults">
+                  </a> <!-- verifySearchPostWithNoResults -->
+                  <span class="method-name">verifySearchPostWithNoResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.posts.PostsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetAllPosts">
+                  </a> <!-- verifyGetAllPosts -->
+                  <span class="method-name">verifyGetAllPosts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetPostById">
+                  </a> <!-- verifyGetPostById -->
+                  <span class="method-name">verifyGetPostById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchPosts">
+                  </a> <!-- verifySearchPosts -->
+                  <span class="method-name">verifySearchPosts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.products.ProductsNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetProductWithInvalidId">
+                  </a> <!-- verifyGetProductWithInvalidId -->
+                  <span class="method-name">verifyGetProductWithInvalidId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidProductErrorSchema">
+                  </a> <!-- verifyInvalidProductErrorSchema -->
+                  <span class="method-name">verifyInvalidProductErrorSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsAccessibleEvenWithInvalidToken">
+                  </a> <!-- verifyProductsAccessibleEvenWithInvalidToken -->
+                  <span class="method-name">verifyProductsAccessibleEvenWithInvalidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithNoResults">
+                  </a> <!-- verifySearchWithNoResults -->
+                  <span class="method-name">verifySearchWithNoResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.auth.AuthNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAuthMeWithInvalidTokenFails">
+                  </a> <!-- verifyAuthMeWithInvalidTokenFails -->
+                  <span class="method-name">verifyAuthMeWithInvalidTokenFails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAuthMeWithoutTokenFails">
+                  </a> <!-- verifyAuthMeWithoutTokenFails -->
+                  <span class="method-name">verifyAuthMeWithoutTokenFails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInvalidPassword">
+                  </a> <!-- verifyLoginWithInvalidPassword -->
+                  <span class="method-name">verifyLoginWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithMissingCredentials">
+                  </a> <!-- verifyLoginWithMissingCredentials -->
+                  <span class="method-name">verifyLoginWithMissingCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRefreshWithInvalidTokenFails">
+                  </a> <!-- verifyRefreshWithInvalidTokenFails -->
+                  <span class="method-name">verifyRefreshWithInvalidTokenFails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.comments.CommentsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddCommentSchema">
+                  </a> <!-- verifyAddCommentSchema -->
+                  <span class="method-name">verifyAddCommentSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCommentsByPostSchema">
+                  </a> <!-- verifyCommentsByPostSchema -->
+                  <span class="method-name">verifyCommentsByPostSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteComment">
+                  </a> <!-- verifyDeleteComment -->
+                  <span class="method-name">verifyDeleteComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetCommentsByPostId">
+                  </a> <!-- verifyGetCommentsByPostId -->
+                  <span class="method-name">verifyGetCommentsByPostId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.perf.PerformanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllPostsPerformance">
+                  </a> <!-- getAllPostsPerformance -->
+                  <span class="method-name">getAllPostsPerformance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCommentsByPostIdPerformance">
+                  </a> <!-- getCommentsByPostIdPerformance -->
+                  <span class="method-name">getCommentsByPostIdPerformance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAuthMeResponseTime">
+                  </a> <!-- verifyAuthMeResponseTime -->
+                  <span class="method-name">verifyAuthMeResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetAllProductsPerformance">
+                  </a> <!-- verifyGetAllProductsPerformance -->
+                  <span class="method-name">verifyGetAllProductsPerformance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetProductsIdPerformance">
+                  </a> <!-- verifyGetProductsIdPerformance -->
+                  <span class="method-name">verifyGetProductsIdPerformance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsEndpointStability">
+                  </a> <!-- verifyProductsEndpointStability -->
+                  <span class="method-name">verifyProductsEndpointStability</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.auth.ResponseSpecSanityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessResponseSpec">
+                  </a> <!-- verifySuccessResponseSpec -->
+                  <span class="method-name">verifySuccessResponseSpec</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.comments.CommentsNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddCommentWithoutBodyFails">
+                  </a> <!-- verifyAddCommentWithoutBodyFails -->
+                  <span class="method-name">verifyAddCommentWithoutBodyFails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteNonExistingComment">
+                  </a> <!-- verifyDeleteNonExistingComment -->
+                  <span class="method-name">verifyDeleteNonExistingComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetCommentsWithInvalidPostId">
+                  </a> <!-- verifyGetCommentsWithInvalidPostId -->
+                  <span class="method-name">verifyGetCommentsWithInvalidPostId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.products.ProductsAdvancedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddProduct">
+                  </a> <!-- verifyAddProduct -->
+                  <span class="method-name">verifyAddProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteProduct">
+                  </a> <!-- verifyDeleteProduct -->
+                  <span class="method-name">verifyDeleteProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidSortByField">
+                  </a> <!-- verifyInvalidSortByField -->
+                  <span class="method-name">verifyInvalidSortByField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyParallelExecutionProof">
+                  </a> <!-- verifyParallelExecutionProof -->
+                  <span class="method-name">verifyParallelExecutionProof</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearchRelevance">
+                  </a> <!-- verifyProductSearchRelevance -->
+                  <span class="method-name">verifyProductSearchRelevance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSortingAscending">
+                  </a> <!-- verifyProductSortingAscending -->
+                  <span class="method-name">verifyProductSortingAscending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsLimitZero">
+                  </a> <!-- verifyProductsLimitZero -->
+                  <span class="method-name">verifyProductsLimitZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsPagination">
+                  </a> <!-- verifyProductsPagination -->
+                  <span class="method-name">verifyProductsPagination</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateProduct">
+                  </a> <!-- verifyUpdateProduct -->
+                  <span class="method-name">verifyUpdateProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.auth.AuthMeSanityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAuthMeWorks">
+                  </a> <!-- verifyAuthMeWorks -->
+                  <span class="method-name">verifyAuthMeWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.auth.AuthAutoRefreshTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTokenAutoRefreshAndRetry">
+                  </a> <!-- verifyTokenAutoRefreshAndRetry -->
+                  <span class="method-name">verifyTokenAutoRefreshAndRetry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.auth.ConfigSanityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyConfigLoads">
+                  </a> <!-- verifyConfigLoads -->
+                  <span class="method-name">verifyConfigLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.auth.RequestSpecSanityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBaseSpecWorks">
+                  </a> <!-- verifyBaseSpecWorks -->
+                  <span class="method-name">verifyBaseSpecWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.products.ProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetAllProducts">
+                  </a> <!-- verifyGetAllProducts -->
+                  <span class="method-name">verifyGetAllProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetProductById">
+                  </a> <!-- verifyGetProductById -->
+                  <span class="method-name">verifyGetProductById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductByIdSchema">
+                  </a> <!-- verifyProductByIdSchema -->
+                  <span class="method-name">verifyProductByIdSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsSchema">
+                  </a> <!-- verifyProductsSchema -->
+                  <span class="method-name">verifyProductsSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchProducts">
+                  </a> <!-- verifySearchProducts -->
+                  <span class="method-name">verifySearchProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.automation.tests.comments.CommentsNegativeTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.comments.CommentsTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.posts.PostsNegativeTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.posts.PostsTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.products.ProductsNegativeTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.products.ProductsAdvancedTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.products.ProductsTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.auth.ConfigSanityTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.auth.ResponseSpecSanityTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.auth.AuthNegativeTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.auth.AuthAutoRefreshTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.auth.AuthMeSanityTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.auth.RequestSpecSanityTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.perf.PerformanceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (14 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">contract</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCommentsByPostSchema</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyDeleteProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductsSchema</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddCommentWithoutBodyFails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAuthMeWithInvalidTokenFails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAuthMeWithoutTokenFails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyDeleteNonExistingComment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetCommentsWithInvalidPostId</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetPostWithInvalidId</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidPaginationLimit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidSortByField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidSortFieldBehavior</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginWithInvalidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginWithMissingCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRefreshWithInvalidTokenFails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchPostWithNoResults</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">performance</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getAllPostsPerformance</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getCommentsByPostIdPerformance</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAuthMeResponseTime</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetAllProductsPerformance</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetProductsIdPerformance</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductsEndpointStability</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddCommentSchema</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddCommentWithoutBodyFails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCommentsByPostSchema</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyDeleteComment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyDeleteNonExistingComment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyDeleteProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetAllProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetCommentsByPostId</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetCommentsWithInvalidPostId</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetPostById</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetPostWithInvalidId</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetProductById</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetProductWithInvalidId</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidPaginationLimit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidProductErrorSchema</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidSortByField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidSortFieldBehavior</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyParallelExecutionProof</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductSearchRelevance</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductSortingAscending</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductsLimitZero</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductsPagination</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchPostWithNoResults</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchPosts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchWithNoResults</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTokenAutoRefreshAndRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUpdateProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetAllPosts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetAllProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTokenAutoRefreshAndRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(48);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyProductsEndpointStability')
+data.setCell(0, 2, 'com.api.automation.tests.perf.PerformanceTest')
+data.setCell(0, 3, 3962);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAddCommentWithoutBodyFails')
+data.setCell(1, 2, 'com.api.automation.tests.comments.CommentsNegativeTest')
+data.setCell(1, 3, 1043);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTokenAutoRefreshAndRetry')
+data.setCell(2, 2, 'com.api.automation.tests.auth.AuthAutoRefreshTest')
+data.setCell(2, 3, 171);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyInvalidPaginationLimit')
+data.setCell(3, 2, 'com.api.automation.tests.posts.PostsNegativeTest')
+data.setCell(3, 3, 149);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyProductsLimitZero')
+data.setCell(4, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(4, 3, 124);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAddCommentSchema')
+data.setCell(5, 2, 'com.api.automation.tests.comments.CommentsTest')
+data.setCell(5, 3, 117);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginWithInvalidPassword')
+data.setCell(6, 2, 'com.api.automation.tests.auth.AuthNegativeTest')
+data.setCell(6, 3, 106);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyInvalidProductErrorSchema')
+data.setCell(7, 2, 'com.api.automation.tests.products.ProductsNegativeTest')
+data.setCell(7, 3, 100);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyAuthMeWorks')
+data.setCell(8, 2, 'com.api.automation.tests.auth.AuthMeSanityTest')
+data.setCell(8, 3, 94);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyGetAllProductsPerformance')
+data.setCell(9, 2, 'com.api.automation.tests.perf.PerformanceTest')
+data.setCell(9, 3, 81);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifySuccessResponseSpec')
+data.setCell(10, 2, 'com.api.automation.tests.auth.ResponseSpecSanityTest')
+data.setCell(10, 3, 80);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyUpdateProduct')
+data.setCell(11, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(11, 3, 80);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyCommentsByPostSchema')
+data.setCell(12, 2, 'com.api.automation.tests.comments.CommentsTest')
+data.setCell(12, 3, 77);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyDeleteNonExistingComment')
+data.setCell(13, 2, 'com.api.automation.tests.comments.CommentsNegativeTest')
+data.setCell(13, 3, 75);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyProductSearchRelevance')
+data.setCell(14, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(14, 3, 73);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAddProduct')
+data.setCell(15, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(15, 3, 71);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyProductSortingAscending')
+data.setCell(16, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(16, 3, 70);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyInvalidSortByField')
+data.setCell(17, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(17, 3, 68);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyBaseSpecWorks')
+data.setCell(18, 2, 'com.api.automation.tests.auth.RequestSpecSanityTest')
+data.setCell(18, 3, 68);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyProductsPagination')
+data.setCell(19, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(19, 3, 66);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyInvalidSortFieldBehavior')
+data.setCell(20, 2, 'com.api.automation.tests.posts.PostsNegativeTest')
+data.setCell(20, 3, 65);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyDeleteProduct')
+data.setCell(21, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(21, 3, 65);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyGetCommentsWithInvalidPostId')
+data.setCell(22, 2, 'com.api.automation.tests.comments.CommentsNegativeTest')
+data.setCell(22, 3, 64);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifySearchProducts')
+data.setCell(23, 2, 'com.api.automation.tests.products.ProductsTest')
+data.setCell(23, 3, 64);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyGetCommentsByPostId')
+data.setCell(24, 2, 'com.api.automation.tests.comments.CommentsTest')
+data.setCell(24, 3, 62);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifySearchPostWithNoResults')
+data.setCell(25, 2, 'com.api.automation.tests.posts.PostsNegativeTest')
+data.setCell(25, 3, 61);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getAllPostsPerformance')
+data.setCell(26, 2, 'com.api.automation.tests.perf.PerformanceTest')
+data.setCell(26, 3, 60);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifySearchWithNoResults')
+data.setCell(27, 2, 'com.api.automation.tests.products.ProductsNegativeTest')
+data.setCell(27, 3, 59);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyAuthMeResponseTime')
+data.setCell(28, 2, 'com.api.automation.tests.perf.PerformanceTest')
+data.setCell(28, 3, 59);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyProductsAccessibleEvenWithInvalidToken')
+data.setCell(29, 2, 'com.api.automation.tests.products.ProductsNegativeTest')
+data.setCell(29, 3, 59);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyGetPostWithInvalidId')
+data.setCell(30, 2, 'com.api.automation.tests.posts.PostsNegativeTest')
+data.setCell(30, 3, 58);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyGetProductWithInvalidId')
+data.setCell(31, 2, 'com.api.automation.tests.products.ProductsNegativeTest')
+data.setCell(31, 3, 55);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyLoginWithMissingCredentials')
+data.setCell(32, 2, 'com.api.automation.tests.auth.AuthNegativeTest')
+data.setCell(32, 3, 55);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'getCommentsByPostIdPerformance')
+data.setCell(33, 2, 'com.api.automation.tests.perf.PerformanceTest')
+data.setCell(33, 3, 54);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyRefreshWithInvalidTokenFails')
+data.setCell(34, 2, 'com.api.automation.tests.auth.AuthNegativeTest')
+data.setCell(34, 3, 53);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyGetProductById')
+data.setCell(35, 2, 'com.api.automation.tests.products.ProductsTest')
+data.setCell(35, 3, 52);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyGetPostById')
+data.setCell(36, 2, 'com.api.automation.tests.posts.PostsTest')
+data.setCell(36, 3, 51);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifySearchPosts')
+data.setCell(37, 2, 'com.api.automation.tests.posts.PostsTest')
+data.setCell(37, 3, 50);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyDeleteComment')
+data.setCell(38, 2, 'com.api.automation.tests.comments.CommentsTest')
+data.setCell(38, 3, 50);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyProductsSchema')
+data.setCell(39, 2, 'com.api.automation.tests.products.ProductsTest')
+data.setCell(39, 3, 49);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyAuthMeWithInvalidTokenFails')
+data.setCell(40, 2, 'com.api.automation.tests.auth.AuthNegativeTest')
+data.setCell(40, 3, 47);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifyGetAllProducts')
+data.setCell(41, 2, 'com.api.automation.tests.products.ProductsTest')
+data.setCell(41, 3, 47);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyAuthMeWithoutTokenFails')
+data.setCell(42, 2, 'com.api.automation.tests.auth.AuthNegativeTest')
+data.setCell(42, 3, 46);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verifyGetProductsIdPerformance')
+data.setCell(43, 2, 'com.api.automation.tests.perf.PerformanceTest')
+data.setCell(43, 3, 46);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'verifyGetAllPosts')
+data.setCell(44, 2, 'com.api.automation.tests.posts.PostsTest')
+data.setCell(44, 3, 45);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'verifyProductByIdSchema')
+data.setCell(45, 2, 'com.api.automation.tests.products.ProductsTest')
+data.setCell(45, 3, 44);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyConfigLoads')
+data.setCell(46, 2, 'com.api.automation.tests.auth.ConfigSanityTest')
+data.setCell(46, 3, 1);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verifyParallelExecutionProof')
+data.setCell(47, 2, 'com.api.automation.tests.products.ProductsAdvancedTest')
+data.setCell(47, 3, 1);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.comments.CommentsNegativeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAddCommentWithoutBodyFails</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteNonExistingComment</span>
+                <span class="method-start">1065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetCommentsWithInvalidPostId</span>
+                <span class="method-start">1142 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.comments.CommentsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAddCommentSchema</span>
+                <span class="method-start">1207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCommentsByPostSchema</span>
+                <span class="method-start">1324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteComment</span>
+                <span class="method-start">1402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetCommentsByPostId</span>
+                <span class="method-start">1453 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.posts.PostsNegativeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyGetPostWithInvalidId</span>
+                <span class="method-start">1516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidPaginationLimit</span>
+                <span class="method-start">1574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidSortFieldBehavior</span>
+                <span class="method-start">1724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchPostWithNoResults</span>
+                <span class="method-start">1789 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.posts.PostsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyGetAllPosts</span>
+                <span class="method-start">1850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetPostById</span>
+                <span class="method-start">1895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchPosts</span>
+                <span class="method-start">1947 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.products.ProductsNegativeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyGetProductWithInvalidId</span>
+                <span class="method-start">1998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidProductErrorSchema</span>
+                <span class="method-start">2054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsAccessibleEvenWithInvalidToken</span>
+                <span class="method-start">2156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithNoResults</span>
+                <span class="method-start">2216 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.products.ProductsAdvancedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAddProduct</span>
+                <span class="method-start">2276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteProduct</span>
+                <span class="method-start">2348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidSortByField</span>
+                <span class="method-start">2414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyParallelExecutionProof</span>
+                <span class="method-start">2483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearchRelevance</span>
+                <span class="method-start">2484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSortingAscending</span>
+                <span class="method-start">2558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsLimitZero</span>
+                <span class="method-start">2629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsPagination</span>
+                <span class="method-start">2754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateProduct</span>
+                <span class="method-start">2821 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.products.ProductsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyGetAllProducts</span>
+                <span class="method-start">2902 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetProductById</span>
+                <span class="method-start">2949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductByIdSchema</span>
+                <span class="method-start">3001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsSchema</span>
+                <span class="method-start">3045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchProducts</span>
+                <span class="method-start">3094 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.auth.ConfigSanityTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyConfigLoads</span>
+                <span class="method-start">3158 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.auth.ResponseSpecSanityTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessResponseSpec</span>
+                <span class="method-start">3159 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.auth.AuthNegativeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAuthMeWithInvalidTokenFails</span>
+                <span class="method-start">3240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAuthMeWithoutTokenFails</span>
+                <span class="method-start">3288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidPassword</span>
+                <span class="method-start">3334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithMissingCredentials</span>
+                <span class="method-start">3441 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRefreshWithInvalidTokenFails</span>
+                <span class="method-start">3497 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.auth.AuthAutoRefreshTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTokenAutoRefreshAndRetry</span>
+                <span class="method-start">3550 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.auth.AuthMeSanityTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAuthMeWorks</span>
+                <span class="method-start">3722 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.auth.RequestSpecSanityTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyBaseSpecWorks</span>
+                <span class="method-start">3816 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.perf.PerformanceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAllPostsPerformance</span>
+                <span class="method-start">3885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCommentsByPostIdPerformance</span>
+                <span class="method-start">3946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAuthMeResponseTime</span>
+                <span class="method-start">4001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetAllProductsPerformance</span>
+                <span class="method-start">4061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetProductsIdPerformance</span>
+                <span class="method-start">4143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsEndpointStability</span>
+                <span class="method-start">4190 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

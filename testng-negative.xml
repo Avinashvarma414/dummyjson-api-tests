@@ -1,0 +1,25 @@
+
+<suite name="Negative Suite"
+       parallel="methods"
+       thread-count="5"
+       verbose="1">
+       <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Negative Tests">
+        <groups>
+            <run>
+                <include name="negative"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.api.automation.tests.auth.AuthNegativeTest"/>
+            <class name="com.api.automation.tests.comments.CommentsNegativeTest"/>
+            <class name="com.api.automation.tests.posts.PostsNegativeTest"/>
+            <class name="com.api.automation.tests.products.ProductsNegativeTest"/>
+        </classes>
+    </test>
+
+</suite>
