@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-12T16:38:03 EST" name="Performance Suite" finished-at="2026-01-12T16:38:07 EST" duration-ms="3681">
+  <suite started-at="2026-01-13T00:31:05 EST" name="Smoke Suite" finished-at="2026-01-13T00:31:05 EST" duration-ms="908">
     <groups>
-      <group name="performance">
-        <method signature="PerformanceTest.getAllPostsPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" name="getAllPostsPerformance" class="com.api.automation.tests.perf.PerformanceTest"/>
-        <method signature="PerformanceTest.getCommentsByPostIdPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" name="getCommentsByPostIdPerformance" class="com.api.automation.tests.perf.PerformanceTest"/>
-        <method signature="PerformanceTest.verifyAuthMeResponseTime()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" name="verifyAuthMeResponseTime" class="com.api.automation.tests.perf.PerformanceTest"/>
-        <method signature="PerformanceTest.verifyGetAllProductsPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" name="verifyGetAllProductsPerformance" class="com.api.automation.tests.perf.PerformanceTest"/>
-        <method signature="PerformanceTest.verifyGetProductsIdPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" name="verifyGetProductsIdPerformance" class="com.api.automation.tests.perf.PerformanceTest"/>
-        <method signature="PerformanceTest.verifyProductsEndpointStability()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" name="verifyProductsEndpointStability" class="com.api.automation.tests.perf.PerformanceTest"/>
-      </group> <!-- performance -->
+      <group name="regression">
+        <method signature="AuthAutoRefreshTest.verifyTokenAutoRefreshAndRetry()[pri:0, instance:com.api.automation.tests.auth.AuthAutoRefreshTest@2fb3536e]" name="verifyTokenAutoRefreshAndRetry" class="com.api.automation.tests.auth.AuthAutoRefreshTest"/>
+        <method signature="ProductsTest.verifyGetAllProducts()[pri:0, instance:com.api.automation.tests.products.ProductsTest@2f217633]" name="verifyGetAllProducts" class="com.api.automation.tests.products.ProductsTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AuthAutoRefreshTest.verifyTokenAutoRefreshAndRetry()[pri:0, instance:com.api.automation.tests.auth.AuthAutoRefreshTest@2fb3536e]" name="verifyTokenAutoRefreshAndRetry" class="com.api.automation.tests.auth.AuthAutoRefreshTest"/>
+        <method signature="PostsTest.verifyGetAllPosts()[pri:0, instance:com.api.automation.tests.posts.PostsTest@611889f4]" name="verifyGetAllPosts" class="com.api.automation.tests.posts.PostsTest"/>
+        <method signature="ProductsTest.verifyGetAllProducts()[pri:0, instance:com.api.automation.tests.products.ProductsTest@2f217633]" name="verifyGetAllProducts" class="com.api.automation.tests.products.ProductsTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-01-12T16:38:03 EST" name="Performance Tests" finished-at="2026-01-12T16:38:07 EST" duration-ms="3681">
-      <class name="com.api.automation.tests.perf.PerformanceTest">
-        <test-method signature="getAllPostsPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" started-at="2026-01-12T16:38:03 EST" name="getAllPostsPerformance" finished-at="2026-01-12T16:38:04 EST" duration-ms="767" status="PASS">
+    <test started-at="2026-01-13T00:31:05 EST" name="Smoke Tests" finished-at="2026-01-13T00:31:05 EST" duration-ms="908">
+      <class name="com.api.automation.tests.auth.AuthAutoRefreshTest">
+        <test-method signature="verifyTokenAutoRefreshAndRetry()[pri:0, instance:com.api.automation.tests.auth.AuthAutoRefreshTest@2fb3536e]" started-at="2026-01-13T00:31:05 EST" name="verifyTokenAutoRefreshAndRetry" finished-at="2026-01-13T00:31:05 EST" duration-ms="897" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllPostsPerformance -->
-        <test-method signature="getCommentsByPostIdPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" started-at="2026-01-12T16:38:04 EST" name="getCommentsByPostIdPerformance" finished-at="2026-01-12T16:38:04 EST" duration-ms="63" status="PASS">
+        </test-method> <!-- verifyTokenAutoRefreshAndRetry -->
+      </class> <!-- com.api.automation.tests.auth.AuthAutoRefreshTest -->
+      <class name="com.api.automation.tests.posts.PostsTest">
+        <test-method signature="verifyGetAllPosts()[pri:0, instance:com.api.automation.tests.posts.PostsTest@611889f4]" started-at="2026-01-13T00:31:05 EST" name="verifyGetAllPosts" finished-at="2026-01-13T00:31:05 EST" duration-ms="575" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getCommentsByPostIdPerformance -->
-        <test-method signature="verifyAuthMeResponseTime()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" started-at="2026-01-12T16:38:04 EST" name="verifyAuthMeResponseTime" finished-at="2026-01-12T16:38:04 EST" duration-ms="54" status="PASS">
+        </test-method> <!-- verifyGetAllPosts -->
+      </class> <!-- com.api.automation.tests.posts.PostsTest -->
+      <class name="com.api.automation.tests.products.ProductsTest">
+        <test-method signature="verifyGetAllProducts()[pri:0, instance:com.api.automation.tests.products.ProductsTest@2f217633]" started-at="2026-01-13T00:31:05 EST" name="verifyGetAllProducts" finished-at="2026-01-13T00:31:05 EST" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAuthMeResponseTime -->
-        <test-method signature="verifyGetAllProductsPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" started-at="2026-01-12T16:38:04 EST" name="verifyGetAllProductsPerformance" finished-at="2026-01-12T16:38:04 EST" duration-ms="74" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGetAllProductsPerformance -->
-        <test-method signature="verifyGetProductsIdPerformance()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" started-at="2026-01-12T16:38:04 EST" name="verifyGetProductsIdPerformance" finished-at="2026-01-12T16:38:04 EST" duration-ms="43" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGetProductsIdPerformance -->
-        <test-method signature="verifyProductsEndpointStability()[pri:0, instance:com.api.automation.tests.perf.PerformanceTest@932bc4a]" started-at="2026-01-12T16:38:04 EST" name="verifyProductsEndpointStability" finished-at="2026-01-12T16:38:07 EST" duration-ms="2654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductsEndpointStability -->
-      </class> <!-- com.api.automation.tests.perf.PerformanceTest -->
-    </test> <!-- Performance Tests -->
-  </suite> <!-- Performance Suite -->
+        </test-method> <!-- verifyGetAllProducts -->
+      </class> <!-- com.api.automation.tests.products.ProductsTest -->
+    </test> <!-- Smoke Tests -->
+  </suite> <!-- Smoke Suite -->
 </testng-results>

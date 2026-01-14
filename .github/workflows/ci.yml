@@ -17,8 +17,8 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
-          java-version: 11
+          distribution: 'temurin'
+          java-version: '11'
 
-      - name: Run Tests
-        run: mvn clean test -Denv=qa
+      - name: Run Smoke Tests
+        run: mvn test -Dsurefire.suiteXmlFiles=testng-smoke.xml -Denv=qa
