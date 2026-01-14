@@ -15,11 +15,11 @@ public class LatencyPercentileTest {
 
     @Test(groups = {"performance"})
     public void verifyProductsP95Latency() {
-//    	int rc=100;
+    	int rc=100;
 
         List<Long> responseTimes = new ArrayList<>();
 
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < rc; i++) {
             Response response = ProductsClient.getAllProducts();
             assertEquals(response.getStatusCode(), 200);
             responseTimes.add(response.getTime());
@@ -27,7 +27,7 @@ public class LatencyPercentileTest {
 
         Collections.sort(responseTimes);
 
-        int index = (int) Math.ceil(0.95 * responseTimes.size()) - 1;
+        int index = (int) Math.ceil(0.99 * responseTimes.size()) - 1;
         long p95 = responseTimes.get(index);
 
         System.out.println("P95 latency = " + p95 + " ms");
